@@ -64,17 +64,17 @@
         android:inputType="number"/>
 
     <EditText
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/edtBath"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/edtType"
-    android:layout_marginTop="20dp"
-    android:layout_marginLeft="225dp"
-    android:layout_marginRight="50dp"
-    android:hint="# of Bathrooms..."
-    android:inputType="numberDecimal"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtBath"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtType"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginRight="50dp"
+        android:hint="# of Bathrooms..."
+        android:inputType="numberDecimal"/>
 
     <EditText
         android:layout_width="wrap_content"
